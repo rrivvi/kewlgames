@@ -6,6 +6,7 @@
     height: 100vh;
     justify-content: center;
     justify-self: center;
+    animation: 1s fadeIn forwards;
 }
 
 body {
@@ -34,6 +35,16 @@ header {
 
 .game-info-container:hover {
     color: rgb(252, 252, 252)
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
 
 @keyframes slideIn {
